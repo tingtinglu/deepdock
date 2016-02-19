@@ -1,6 +1,6 @@
 # CUDA-enabled Deep Learning Image
 
-This image runs a jupyter notebook server on port 8000.
+This image runs a jupyter notebook server on port 8888.
 
 Contents
 --------
