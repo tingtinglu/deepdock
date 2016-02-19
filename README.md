@@ -1,2 +1,2 @@
-# deeplearningondocker
-Dockerfile and automated builds for docker image henryzlo/deeplearning.
+# deepdock
+Dockerfile and automated builds for docker image henryzlo/deeplearning
