@@ -1,19 +1,14 @@
 # CUDA-enabled Deep Learning Image
 
-Jupyter notebook server (port 8888) with the following .
-
-Contents
---------
-
-Installed in this image are:
+Jupyter notebook server (port 8888) for deep learning.  Contains the libraries:
 
 - Caffe + CUDNN
 - Theano (no CUDNN)
 - Keras
 - Lasagne
 - Scikit-learn
-- Jupyter notebook.
-
+- Jupyter
+- 
 The github repo and docker image are both `henryzlo/deepdock`
 
 Requirements
