@@ -1,6 +1,6 @@
 # CUDA-enabled Deep Learning Image
 
-This image runs a jupyter notebook server on port 8888.
+Jupyter notebook server (port 8888) with the following .
 
 Contents
 --------
@@ -45,3 +45,5 @@ If you want a shell in the image, run the command above, then use:
 docker exec -it <image-name> bash
 ```
 Where `<image-name>` can be obtained via `docker ps`.
+
+To connect to the notebook server, point browser to `<IP>:8888`, where `<IP>` can be obtained via `docker inspect <image-name> | grep IPAddress`
