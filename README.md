@@ -44,3 +44,5 @@ docker exec -it <image-name> bash
 Where `<image-name>` can be obtained via `docker ps`.
 
 To connect to the notebook server, point browser to `<IP>:8888`, where `<IP>` can be obtained via `docker inspect <image-name> | grep IPAddress`
+
+Default password is `abc123ak47`
