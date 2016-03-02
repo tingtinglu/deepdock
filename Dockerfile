@@ -17,8 +17,8 @@ RUN pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 # Set up .theanorc for CUDA; ncnmem=0 because otherwise does not work
 RUN echo "[global]\ndevice=gpu\nfloatX=float32\n[lib]\ncnmem=0\n[nvcc]\nfastmath=True" > /root/.theanorc
 
-# Install scikit-learn, jupyter
-RUN pip install scikit-learn jupyter lasagne keras
+# Install scikit-learn, jupyter, pydotplus for caffe visualization
+RUN pip install scikit-learn jupyter lasagne keras, pydotplus
 
 # Configure jupyter, set up password
 RUN jupyter notebook --generate-config
