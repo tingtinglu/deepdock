@@ -23,6 +23,7 @@ RUN apt-get update && apt-get install -y \
   libsnappy-dev \
   python-pip \
   python-setuptools \
+  emacs24-nox \
   gfortran > /dev/null  
 
 
