@@ -39,7 +39,7 @@ RUN pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 RUN echo "[global]\ndevice=gpu\nfloatX=float32\n[lib]\ncnmem=0\n[nvcc]\nfastmath=True" > /root/.theanorc
 
 # Install scikit-learn, jupyter, pydotplus for caffe visualization, seaborn
-RUN pip install scikit-learn jupyter lasagne keras, pydotplus, seaborn
+RUN pip install scikit-learn jupyter lasagne keras pydotplus seaborn
 
 
 # MXNet
